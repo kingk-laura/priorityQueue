@@ -1,3 +1,4 @@
+//comments
 class PriorityQueue
 {
   private int[] rank;
@@ -11,7 +12,7 @@ class PriorityQueue
 
   public int parent(int i)
   {
-    return (i-1)/2;
+    return (i)/2;
   }
 
   public int leftChild(int parent)
